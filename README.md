@@ -1,7 +1,7 @@
 # AI-Virtual-Wardrobe
 AI-Virtual Wardrobe leverages advanced computer vision and artificial intelligence techniques to revolutionize the virtual clothing try-on experience. The project allows users to virtually try on various clothing items and accessories with high accuracy and realism, transforming the fashion industry's approach to garment customization and personal style.
 
-Modules Implemented
+**Modules Implemented**
 1. **Clothes Try-On Module**
 **Models Explored**: IUV Model, Thin Plate Spline, VGG, Keypoint-Based Warping, SeiveNet, GMM & TOM.<br/>
 **Best Model**: ACGPN Model - Achieved the highest realism and fit for virtual try-on.
