@@ -46,7 +46,15 @@ Lip Detection: Haar cascade classifier.<br/>
 
 ![image](https://github.com/user-attachments/assets/0d92432c-6323-4bb3-867b-c99ff0f0e168)
 
+**Frontend**
 **Flask Web App**
-![Home Page of Application](https://github.com/user-attachments/assets/9533fa9e-b3b7-475e-b3eb-2d98141b3ff3)
+
+![image](https://github.com/user-attachments/assets/9533fa9e-b3b7-475e-b3eb-2d98141b3ff3)
+**Home Page of Application**
+
+![image](https://github.com/user-attachments/assets/da1d2412-20d7-48a6-83e8-5ceb99f6ccab)
+**Try On Page of Application**
+
+![image](https://github.com/user-attachments/assets/cf355a78-25e7-4eb3-9304-eb766e0d6d52)
 
 
