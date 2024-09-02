@@ -44,5 +44,9 @@ Facial Landmark Detection: Used on the segmented image to generate semantic maps
 Lip Detection: Haar cascade classifier.<br/>
 **Approach**: Detects lip region and applies different lipstick colors. The system then recommends various products based on the selected color
 
-![image](https://github.com/user-attachments/assets/b3042108-fddf-4c6c-b8bb-f1f78b9c4b38)
+![image](https://github.com/user-attachments/assets/0d92432c-6323-4bb3-867b-c99ff0f0e168)
+
+**Flask Web App**
+![Home Page of Application](https://github.com/user-attachments/assets/9533fa9e-b3b7-475e-b3eb-2d98141b3ff3)
+
 
