@@ -6,6 +6,7 @@ Modules Implemented
 Models Explored:
 IUV Model, Thin Plate Spline, VGG, Keypoint-Based Warping, SeiveNet, GMM & TOM.
 Best Model: ACGPN Model - Achieved the highest realism and fit for virtual try-on.
+
 ![image](https://github.com/user-attachments/assets/ae6bcfe5-8e04-4687-ab1b-35fbf172b6c0)
 ![image](https://github.com/user-attachments/assets/0728cad9-65a0-48ac-8266-23f15a9619f6)
 
@@ -34,9 +35,10 @@ Detects face and ears, then places earrings accordingly for a perfect earring pl
 
 5. Hairwig Try-On Module
 Model Used:
-Style Transfer: GAN model for hairstyle visualization.
+UNet Architecture: Segments the face into five regions—hair, face, ears, neck, and shirt.
+Facial Landmark Detection: Used on the segmented image to generate semantic maps.
 Approach:
-Applies style transfer to simulate various hairstyles on the user's image.
+The system overlaps the source hair with the target face, creating a difference mask to fill in the missing sections using the SDEdit method. A smooth transition is achieved by filling in these sections using the fast marching approach.
 ![image](https://github.com/user-attachments/assets/ef077882-2db4-4e1b-b056-2abdc515663c)
 ![image](https://github.com/user-attachments/assets/6dfec046-841c-46b2-9a49-711722ef6cc9)
 
